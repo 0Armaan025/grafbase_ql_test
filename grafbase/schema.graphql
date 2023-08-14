@@ -1,0 +1,38 @@
+
+
+type Users @model {
+  id: ID!
+  name: String!
+  email: Email
+  details: String
+  password: String
+  skills: [String] 
+  userType: String
+
+}
+
+type Courses @model {
+  id: ID!
+  title: String!
+  details: String
+  instructor: String
+  duration: String
+  email: Email
+  Price: Int
+}
+
+
+
+
+
+type Jobs @model {
+  id: ID!
+  companyName: String
+  position: String
+  location: String
+  description: String
+  responsiblities: [String]
+  qualifications: [String]
+}
+
+
